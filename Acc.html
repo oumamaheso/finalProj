@@ -1,0 +1,2875 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>web design</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Poppins&display=swap" rel="stylesheet">
+    <!---<link rel="stylesheet" href="style.css">--->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <style>
+        .collapsible-list .list  {
+  display: none;
+ 
+}.collapsible-list li{
+  font-size: 18px;
+}
+
+.toggle {
+  cursor: pointer;
+  color: #0073aa;
+  display: inline-block;
+  margin-top: 5px;
+}
+
+.toggle:hover {
+  text-decoration: underline;
+}body {
+    font-size: 16px;
+    background-color:white;
+    margin: 0;
+    padding: 0;
+    height:100%;
+    font-family: 'Poppins', sans-serif;
+
+}.blue-linesAcc {
+  display: block;
+  width: 100%;
+  height: 4px;
+  border: none;
+  background-color: #0056D2;
+  margin: 40px auto; 
+  clear: both; 
+  margin-top:-100px;
+}
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+.color {
+  background-color:white;
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  color:white;
+  margin-top:10px;
+}
+
+html {
+ 
+  overflow-x: hidden; 
+    margin: 0;
+    padding: 0;
+    height:100%;
+
+}.blue-lines {
+  display: block;
+  width: 90%;
+  height: 4px;
+  border: none;
+  background-color: #0056D2;
+  margin: 40px auto; 
+  clear: both; 
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 50px 0;
+  margin-left:-250px;
+  margin-top:50px;
+}.watch-youtube {
+  text-align: center;
+  margin-top: -15px;
+  margin-left:500px;
+  font-size:30px;
+}.about-bsi {
+  position: relative;
+  padding: 40px;
+  margin-top: 30px;
+  border-radius: 0px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+  color: black;
+  overflow: hidden;
+  z-index: 1;
+  margin-left:-20px;
+}.about-bsi h2{
+margin-left:-100px;
+
+}.pillarsOFBSI p b {
+  color: #0c3c80;
+  font-weight:bolder;
+}
+.pillarsOFBSI {
+    margin-top: 50px;  
+    display: flex;          
+    flex-direction: column; 
+    gap: 30px;  
+              
+}.pillarsOFBSI h2{
+  text-align: center;
+  color: #0c3c80;
+  margin: 50px auto;
+  font-size: 30px;
+  font-weight: bold;
+  display: inline-block; 
+  border-bottom: 3px solid #0c3c80;
+  padding-bottom: 5px; 
+} 
+
+.pillarsOFBSI .pillar {
+    display: flex;
+    align-items: center;    
+    gap: 20px;            
+}
+
+
+.pillarsOFBSI img {
+    width: 600px;  
+    height: 250px;  
+    object-fit: cover;     
+    margin: 0; 
+    margin-left:700px;  
+    padding:80px        
+}
+
+
+.pillarsOFBSI p {
+    font-weight: bold;
+    flex: 1;               
+    text-align: left;
+    font-size:18px;
+    margin-left:-590px;
+    padding:10px 690px;
+    margin-top:-300px;
+    
+}
+
+.about-bsi::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("images/picBack.jpg") no-repeat center center/cover;
+  opacity: 0.6;        
+  z-index: -1;
+}
+
+
+.about-bsi h2{
+  color:#0c3c80;
+  text-align: center;
+  text-decoration: underline;
+  font-size:30px;
+  margin-top:100px;
+}.about-bsi p{
+  position: relative;
+  margin-left:-20px;
+  font-size:18px;
+  font-weight: 599;
+  font-weight:bold;
+}.promiseBSI h2{
+  color:#0c3c80;
+  text-align: center;
+  text-decoration: underline;
+  font-size:30px;
+  margin-top:100px;
+}
+.promiseBSI p{
+  position: relative;
+  margin-left:10px;
+  font-size:18px;
+  font-weight:bold;
+  text-align: center;
+
+}.stats p u {
+  color: #0c3c80; 
+  font-weight: bold;
+}
+.stats {
+    margin-top: 40px;
+}.stats p{
+  margin-left:10px;
+  font-size:18px;
+  font-weight: bold;
+
+}
+
+.stats h2 {
+    font-size: 30px;
+    color: #0c3c80;
+    margin-bottom: 20px;
+    display: inline-block;
+    border-bottom: 3px solid #0c3c80; 
+    padding-bottom: 0px;
+    text-align: center;
+    margin-left:550px;
+}
+
+.stat-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 300px));
+    gap: 30px;
+    margin-top:50px;
+}
+
+.card {
+    background: #f8f9fc;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    transition: 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+
+.icon {
+    font-size: 32px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.card h4 {
+    font-size: 28px;
+    color: #0c3c80;
+    margin-bottom: 5px;
+}.internships h2{
+  position:absolute;
+  font-size:30px;
+  color:#0c3c80;
+  margin-left:600px;
+  margin-top:-170px;
+  text-align: center;
+
+}.intern{
+  width:600px;
+  margin-left:50px;
+  margin-top:-100px;
+
+}.internships{
+  margin-top:200px;
+}.internships p{
+  margin-left:600px;
+  margin-top:-260px;
+  font-size:18px;
+  padding: 10px 90px;
+ 
+ 
+
+}
+header {
+    width: 100%;
+    position: relative;
+
+}
+
+.main{
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+     flex: 1;
+}.Acc{
+  position: absolute;
+    top: 30px;
+    margin-left:30px;
+    display:flex;
+    flex-direction:column;
+     flex: 1;
+}
+.address2{
+    font-style: italic;
+    margin-top:-38px;
+    padding-left:30px;
+    color: #000;
+    vertical-align: bottom;
+    font-weight: normal;
+    font-size:12px;
+}.address3{
+    font-style: italic;
+    color:#000;
+    vertical-align: bottom;
+    font-weight: normal;
+    font-size:12px;
+}.address1{
+  color:#000;
+  vertical-align:bottom;
+  font-weight: normal;
+  font-size: 12px;
+  margin-top:120px;
+}.addresses{
+  margin-top:-80px;
+}
+.phone{
+    height: 20px;
+    font-weight: normal;
+   
+   
+}.phone1{
+    margin-top:-30px;
+    position: relative;
+    padding-left:40px;
+    font-style:italic;
+    color:#000;
+    font-weight: normal;
+    font-size:12px;
+}.jozi{
+    padding-left: 500px;
+    position:relative;
+    margin-top: -225px;
+    font-weight: normal;
+}.durban{
+    padding-left:900px ;
+    margin-top:-225px;
+    position:relative;
+    white-space: nowrap;
+    font-weight: normal;
+}.appointments{
+    font-size:12px;
+    font-weight: normal;
+    
+
+  }
+  .whatsapp{
+    height: 30px;
+    font-weight: normal;
+}.phoneapp{
+    position:relative; 
+    padding-left: 40px;
+    margin-top: -30px;
+    font-size:12px;
+    font-weight: normal;
+}
+.container1 {
+    display: flex;
+    margin-top: 20px;
+    padding-left: 150px;
+    color:#000;
+    font-weight: normal;
+}
+.information{
+    
+    flex:1;
+    padding-left:190px;
+    margin-top: 40px;
+    font-size:12px;
+    color:#000;
+    font-weight: normal;
+   
+    
+}.hours{
+    flex:1;
+    border-right:2px solid black;
+    padding-left:-200px;
+    margin-top: 20px;
+    color:#000;
+    font-weight: normal;
+   
+}.social{
+ 
+  height: 30px;
+  font-weight: normal;
+  
+}.socia {
+  position:relative;     
+  display: block;
+  margin-top:-180px;       
+  margin-left:1000px;;        
+  width: 300px;           
+  height:150px;
+  font-weight: normal;
+}.information a,
+.informationAcc a {
+  text-decoration: none;     
+  outline: none; 
+  font-weight: normal;               
+}
+.locations{
+    height:30px;
+    font-weight: normal;
+ 
+
+}.mails{
+    height:20px;
+    font-weight: normal;
+}.information1{
+    position:relative; 
+    padding-left: 40px;
+    margin-top: -25px;
+    font-size:12px;
+    font-weight: normal;
+    
+}
+.media{
+    font-size:12px;
+    font-weight: normal;
+    margin-top:30px;
+}.testimonial-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 40px 0;
+}
+
+.testimonial-header h2 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    color: #0c3c80; 
+    line-height: 1.2;
+    margin: 0;
+}
+
+.left-box, .right-box {
+    font-size: 16px;
+    color: #0c3c80;
+}.get-in{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 40px 0;
+    margin-top: -150px;
+    margin-left:-800px;
+    color:#000;
+    font-weight: normal;
+
+  }.get-inAcc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 40px 0;
+    margin-top: -50px;
+    margin-left:-800px;
+    color:#000;
+    font-weight: normal;
+
+  }.get-inContact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 40px 0;
+    margin-top: -30px;
+    margin-left:-800px;
+    color:#000;
+    font-weight: normal;
+
+  }
+  .get-inColl{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 40px 0;
+    margin-top: -50px;
+    margin-left:-800px;
+    color:#000;
+    font-weight: normal;
+
+  }
+  .get-in h2 {
+    text-align: center;
+    font-size: 18px;
+    color:#000;
+    line-height: 1.2;
+    margin: 0;
+    font-weight: normal;
+}.office{
+  font-weight:normal;
+  font-size:12px;
+}
+.office1{
+  font-weight: normal;
+  font-size:12px;
+}
+
+.left-touch, .right-touch{
+    font-size: 14px;
+    color:#000;
+    font-weight: normal;
+   
+}.imgone,
+.imgtwo,
+.imgthree,
+.imgfour,
+.imgfive
+{
+    width: 310px;
+    height: 190px;
+}.AboutAandT{
+  margin-top:-50px;
+}
+.AboutAandT h2{
+  
+    color: #0c3c80;
+    text-align:center;
+    font-size:30px;
+   
+}.AboutAandT p{
+  font-size:18px;
+}
+.Ourservices {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  justify-content:left;
+  padding: 20px;
+}.service h2{
+  color:black;
+  font-size:25px;
+  text-align: center;
+}.Ourservices .service h2{
+  color: #000;
+  font-size:16px;
+}.Ourservices .service img{
+   width: 310px;
+    height: 190px;
+}
+.service li{
+    color: black;
+    font-size:20px;
+}.accAndTraining {
+position: relative;
+height: 260px;
+width:250px;
+display: block;
+margin-top:-70px;
+top:0;
+left:-10px;
+}.AccInfo{
+    margin-top: -80px;
+    font-size:20px;
+    margin-left:100px;
+   
+    
+}.AccValues {
+  
+  display: flex;
+  gap: 15px;
+  margin-left:200px;
+
+}.value1 img {
+  width:  100px;
+  height: auto;
+ 
+
+}
+.value1 p {
+  margin: 0;
+  font-size: 18px;
+  margin-left:-40px;
+  padding:10px 40px;
+ 
+}.AccValues h2{
+  margin-top:-40px;
+  
+}
+.value2{
+ text-align:left;
+ font-weight: bold;
+}
+.accIntro{
+  margin-top:-140px;
+}
+.offeredServices {
+
+    color: #0c3c80;
+    text-align:center;
+    text-decoration: underline;
+  
+
+}.tabs{
+  position:relative;
+  top: -240px;
+  right:-800px;
+  display: flex;
+  gap: 1px;
+  padding: 20px;
+  background-color: transparent;
+}.tabsC{
+  position:relative;
+  top: -200px;
+  right:-690px;
+  display: flex;
+  gap: 1px;
+  padding: 20px;
+  background-color: transparent;
+}.tabsColl{
+  position:relative;
+  top: -200px;
+  right:-800px;
+  display: flex;
+  gap: 1px;
+  padding: 20px;
+  background-color: transparent;
+}
+.Homepage{
+  text-decoration: none;
+  padding: 20px 10px;
+  font-size:18px;
+  color: #0c3c80;
+ 
+}
+
+.Homepage:hover {
+ 
+  text-decoration:underline;
+
+} .about-tab:hover{
+  text-decoration:underline;
+}
+.WhyUs{
+ 
+  text-align: center;
+  color:#0c3c80;
+  text-decoration: underline;
+ 
+   
+    
+}.training{
+    height:200px;
+    width:200px;
+
+}.aboutBSI p{
+    font-size:18px;
+    margin-top: 220px;
+    margin-left:-200px;
+}.aboutBSI {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+  
+}.team{
+    text-align: center;
+    color: #0c3c80;
+    text-decoration: underline;
+}
+ .logos2Acc{
+    position: absolute;
+    margin-top:80px;
+    padding-left: 1090px;
+    filter: blur(1px);
+    height:80px
+   
+}.informationAcc{
+    flex:2.3;
+    padding-left:50px;
+    margin-top: 40px;
+  
+}.teams{
+    font-size: 18px;
+    margin-left: 100px;
+}.accreditation-title {
+   
+    text-align: center;
+    margin-top: 30px;
+    color:#0c3c80;
+    text-decoration: underline;
+}
+
+.accreditations h2{
+    text-align: center;
+    padding: 20px;
+    font-size:30px;
+    margin-top:-60px;
+}.accreditations p{
+    font-size:18px;
+}
+
+
+.accred-logo {
+  width: 130px;
+  margin: 10px;
+  vertical-align: middle;
+  margin-left:80px;
+  height: 80px; 
+  object-fit: contain;
+
+
+  }
+
+
+.logo-slider {
+  position: relative;       
+  overflow: hidden;
+  width: 100%;
+  height: 100px;           
+}
+
+.logo-track {
+  position: absolute;      
+  display: flex;
+  top: 0;                   
+  left: 0;
+}
+
+
+
+@media (max-width: 768px) {
+  .accred-logo {
+    height: 60px;
+    margin: 0 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .accred-logo {
+    height: 40px;
+    margin: 0 5px;
+  }
+}
+
+
+
+.accred-desc {
+    margin-top: 85px;
+    font-size: 18px;
+    margin-left:100px;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #005fa3;
+}
+
+.interns{
+    text-align: center;
+    text-decoration:underline;
+}.cta-section {
+   background-color: #0c3c80;
+  padding: 40px 20px;
+  text-align: center;
+  border-radius: 15px;
+  color: #fff;
+  margin: 100px auto;
+  max-width: 1000px; 
+  width: 90%;        
+  font-family: Arial, sans-serif;
+  margin-top:-70px;
+}.cta-sectionAcc {
+   background-color: #0c3c80;
+  padding: 40px 20px;
+  text-align: center;
+  border-radius: 15px;
+  color: #fff;
+  margin: 100px auto;
+  max-width: 1000px; 
+  width: 90%;        
+  font-family: Arial, sans-serif;
+  margin-top:-10px;
+}.cta-sectionColl {
+   background-color: #0c3c80;
+  padding: 40px 20px;
+  text-align: center;
+  border-radius: 15px;
+  color: #fff;
+  margin: 100px auto;
+  max-width: 1000px; 
+  width: 90%;        
+  font-family: Arial, sans-serif;
+  margin-top:-10px;
+  margin-left:150px;
+}
+.cta-section1 {
+   background-color: #0c3c80;
+  padding: 40px 20px;
+  text-align: center;
+  border-radius: 15px;
+  color: #fff;
+  margin: 100px auto;
+  max-width: 1000px; 
+  width: 90%;        
+  font-family: Arial, sans-serif;
+  margin-top:50px;
+}.cta-section1 h2{
+  font-size:28;
+}
+
+.cta-section h2 {
+  margin-bottom: 25px;
+  font-size: 2rem;
+  letter-spacing: 1.2px;
+}
+
+.cta-buttons {
+  justify-content: center;
+  flex-wrap: wrap; 
+}
+
+.cta-btn {
+  background-color: #2a7ae2; 
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 5px 12px rgba(42, 122, 226, 0.5);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.cta-btn:hover {
+  background-color: #1d5bbf;
+  transform: scale(1.05);
+}.modal {
+  display: none;
+  position: fixed;
+  z-index: 10;
+  left: 0; top: 0;
+  width: 100%; height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content {
+  background-color: #fff;
+  margin: 10% auto;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 400px;
+  text-align: center;
+}.Regbtn {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #0055aa;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+  }
+  .Regbtn:hover {
+    background-color: #003d7a;
+  }
+
+.close {
+  float: right;
+  font-size: 18px;
+  cursor: pointer;
+}.addresses{
+    position: relative;
+    margin-left:100px;
+}
+.usAbout h2{
+    font-size:30px;
+    color:black;
+    margin-left:-1px;
+    text-align: center;
+
+
+ 
+}.whyBSI {
+  text-align: center;
+  padding: 40px 20px;
+  margin-top:-10px;
+}
+
+.whyBSI h2{
+   font-size:30px;
+    color:#0c3c80;
+    text-decoration: underline;
+    margin-left:80px;
+    text-align: center;
+    margin-top:30px;
+}.whyBSI p{
+  font-size:18px;
+  margin-left:30px;
+}.whyBSI .features-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch; 
+  gap: 30px;
+  flex-wrap: wrap; 
+  margin-top:100px;
+}
+
+.whyBSI .feature {
+  flex: 1;
+  min-width: 250px;
+  background: #fff;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  margin-top:-70px;
+}
+
+.whyBSI .feature img.iconn1 {
+  width: 200px;
+  height: auto;
+  margin-bottom: 60px;
+  margin-left:60px;
+}
+.whyBSI .feature img.iconn2 {
+  width: 200px;
+  height: auto;
+  margin-bottom: 80px;
+  margin-left:60px;
+}.whyBSI .feature img.iconn3 {
+  width: 200px;
+  height: auto;
+  margin-bottom: 55px;
+  margin-left:60px;
+}
+
+.whyBSI .feature h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #0c3c80;
+  margin-bottom: 15px;
+}
+
+.whyBSI .feature p {
+  font-size: 18px;
+  
+}
+
+
+
+
+.BSI-Content {
+  text-align: center;
+  font-size:18px;
+  position: relative;
+  width: 100%;
+  min-height: 200px;
+  background: url('images/business.jpg') center/cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding:40px 20px;
+  margin-top:-100px;
+  overflow: hidden;
+  color:white;
+  z-index: 1;
+}.BSI-Content::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('images/business.jpg') center/cover no-repeat;
+  filter: blur(2px);
+  z-index:-1;
+}
+.usAbout p{
+    font-size:18px;
+}.usAbout{
+    position: relative;
+    margin-top:50px;
+    margin-left:70px
+    
+    
+}.finexBack h1{
+    color:white;
+    text-align: center;
+    text-decoration: underline;
+    font-size:40px;
+}.finex-BSISA h1{
+   color: #0c3c80;
+    text-align: center;
+    text-decoration: underline;
+    font-size:35px; 
+}
+
+.invest {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.option-box {
+  background: #fff;
+  border: 2px solid #dde2e6;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: left;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.option-box:hover {
+  transform: translateY(-5px);
+  border-color: #0c3c80;
+}
+
+.option-box h2 {
+  font-size: 1.4rem;
+  margin-bottom: 15px;
+  color: #0c3c80;
+}
+
+.investOPT {
+  width:100%px;
+  height: 380px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.option-box p {
+    font-size:20px;
+
+}
+
+.cta-btn {
+  display: inline-block;
+  background: #2a7ae2;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+
+}
+.cta-btn:hover {
+  background: #1c57ad;
+}
+@media (max-width: 768px) {
+ 
+  body, html {
+    padding: 10px;
+    margin: 0;
+    overflow-x: hidden;
+  }
+
+
+  header {
+    position: relative !important;
+  }
+
+  .main {
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    padding: 20px !important;
+  }
+
+  .logo-header {
+    margin: 20px 0 !important;
+    text-align: center !important;
+    font-size:40 !important;
+    margin-left: 0 !important;
+  }
+
+  .paragraphs {
+    padding:10px !important;
+    margin-left:10px;
+    margin-top: 0 !important;
+    width: 100% !important;
+    box-sizing: border-box;
+  }
+
+  .paragraph-one, .paragraph-2, .paragraph-3, .paragraph-4, .paragraph-four {
+    margin: 10px auto !important;
+    padding: 0 10px !important;
+    text-align: center !important;
+    font-size: 18px !important;
+    color: black !important;
+  }
+
+  .paragraph-one::before {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-left: 0 !important;
+  }
+
+  .pillars {
+    margin-top: -400px !important;
+    text-align: center !important;
+  }
+
+  .hands {
+    position: relative !important;
+    top: 0 !important;
+    right: 0 !important;
+    height: auto !important;
+    max-width: 90vw !important;
+    margin: 20px auto !important;
+  }
+
+  ul {
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    padding-left: 0 !important;
+    margin-top: 20px !important;
+    gap: 15px !important;
+  }
+
+  .color-top,
+  .color-bottom {
+    width: 100% !important;
+    max-width: 300px !important;
+    height: 10px !important;
+    margin: 0 auto !important;
+  }
+
+  .container1, .container2, .container3 {
+    margin: 10px auto !important;
+    max-width: 100% !important;
+  }
+
+
+  .learn-more-container {
+    margin-left: 0 !important;
+    margin-top: 20px !important;
+    text-align: center !important;
+  }
+
+  .learn-more-button {
+    width: 80% !important;
+    max-width: 300px !important;
+    margin: 0 auto !important;
+    display: block !important;
+  }
+
+  .icon-container {
+    flex-direction: column !important;
+    padding-left: 0 !important;
+    margin: 20px auto !important;
+    align-items: center !important;
+    gap: 20px !important;
+  }
+
+  .icon-box {
+    width: 90vw !important;
+    max-width: 250px !important;
+    margin: 10px auto !important;
+  }
+
+  .info1, .info2, .info3 {
+    padding: 20px !important;
+    margin: 20px auto !important;
+    font-size: 20px !important;
+    max-width: 90vw !important;
+    position: relative !important;
+    right: 0 !important;
+    left: 0 !important;
+    background-color: #0c3c80 !important;
+    color: white !important;
+    border-radius: 5px !important;
+    text-align: center !important;
+  }
+
+  .Testimonial1, .Testimonial2,
+  .name1, .name2 {
+    padding-left: 0 !important;
+    margin-top: 10px !important;
+    font-size: 18px !important;
+    position: relative !important;
+    text-align: center !important;
+  }
+
+  .Testimonial1::before, .Testimonial2::before {
+    left: 50% !important;
+    top: -20px !important;
+    width: 40px !important;
+  }
+
+  .logos2,.logos2Acc{
+    position: relative !important;
+    margin: 20px auto !important;
+    padding-left: 0 !important;
+    filter: none !important;
+    height: 50px !important;
+    display: block !important;
+    text-align: center !important;
+  }
+
+  .container1 {
+    flex-direction: column !important;
+    padding-left: 0 !important;
+    margin: 10px auto !important;
+  }
+
+  .information {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 50px;
+  margin-top: 40px;
+  font-size: 25px;
+}
+
+.information1 {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.phoneapp {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.media {
+  margin-top: 20px;
+  font-size: 22px;
+}
+
+.social {
+  height: 30px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.mails,
+.whatsapp {
+  height: 30px;
+  margin-top: 10px;
+}
+
+.socia {
+  display: block;
+  margin: 20px auto;
+  width: 300px;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .information {
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .information1,
+  .phoneapp,
+  .media {
+    font-size: 16px;
+  }
+
+  .social {
+    height: 25px;
+  }
+
+  .mails,
+  .whatsapp {
+    height: 25px;
+  }
+
+  .socia {
+    width: 80%;
+  }
+}
+
+@media (max-width: 480px) {
+  .information {
+    font-size: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .social {
+    height: 20px;
+    margin: 5px;
+  }
+
+  .information1,
+  .phoneapp,
+  .media {
+    font-size: 14px;
+  }
+
+  .socia {
+    width: 90%;
+  }
+}
+
+  
+}@media (max-width: 768px) {
+
+  .Ourservices {
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+  .service {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+
+
+  .faq-boarder {
+    width: 90%;           
+    margin-left: auto;    
+    margin-right: auto;
+    border-radius: 5px;
+    background-color: #0c3c80;
+    padding: 15px;    
+  }
+
+  .faq-response {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.1em;
+    color: white;
+    padding: 0 10px; 
+  }
+
+  .offeredServices,
+  .WhyUs,
+  .team,
+  .accreditation-title {
+    font-size: 24px;
+  }
+
+  .training {
+    height: 150px;
+    width: 150px;
+  }
+
+  .informationAcc {
+    padding: 15px;
+    text-align: center;
+  }
+
+  .social {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+  }
+
+}.finexBack {
+  position: relative;
+  width: 100%;
+  min-height: 300px;
+  background: url('images/finBack.avif') center/cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  margin-top: -200px;
+  text-align: center;
+  color: #fff;               
+  overflow: hidden;
+}
+
+.finexBack::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: url('images/finBack.avif') center/cover no-repeat;
+  filter: blur(3px);
+  transform: scale(1.1);
+  z-index: 1;
+}
+
+
+.finexBack::after {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+}
+
+.finexBack > * {
+  position: relative;
+  z-index: 3;
+}
+
+
+.finexLogo {
+  height: 300px;
+  width: 400px;
+  display: block;
+  position: relative;
+  top: -80px;
+  left: -50px;
+}
+
+@media (max-width: 767px) {
+  body {
+    font-size: 15px;
+    padding: 8px;
+  }  .addresses,.address2, .address3, .phone1, .phoneapp, .jozi, .durban {
+    padding-left: 0 !important;
+    margin: 10px auto !important;
+    font-style: italic !important;
+    text-align: center !important;
+  }.image-links {
+    flex-wrap: wrap !important;
+    margin-left: 0 !important;
+    margin-top: 20px !important;
+    justify-content: center !important;
+    gap: 15px !important;
+  }
+  .image-container {
+    flex: 1 1 100% !important;
+    max-width: 300px !important;
+    margin: 0 auto !important;
+    padding: 10px !important;
+  }
+  .link-image {
+    width: 100% !important;
+    height: auto !important;
+    max-width: 300px !important;
+    margin: 0 auto !important;
+    display: block !important;
+  }
+
+  .finexBack {
+    margin-top: 0;
+    padding: 20px 10px;
+    min-height: 220px;
+  }
+
+  .tabsC {
+    display: flex;          
+    gap: 35px;
+    position: relative;
+    top: -200px;
+    right: -55px;
+    flex-wrap: wrap;
+  
+    
+  } .tabsColl {
+    display: flex;          
+    position: relative;
+    top: -225px;
+    right: -215px;
+    flex-wrap: wrap;
+   
+   
+    
+  }.tabsColl a{
+    width:50px;
+  }.tabsColl a{
+    width:50px;
+  }
+  .about-tab{
+  position: absolute;
+  text-decoration: none;
+  font-size:14px;
+  color: #0c3c80;
+  margin-left:200px;
+  margin-top:-50px;
+
+
+  }.tabs{
+    display: flex;          
+    gap: 50px;
+    position: relative;
+    top: -200px;
+    right: -105px;
+    flex-wrap: wrap; 
+   
+      
+  }.tabs a {
+    width: 45px;         
+}
+    .Home-tabs {
+     display: flex;          
+    gap: 35px;
+    position: relative;
+    top: -140px;
+    right: -50px;
+    flex-wrap: wrap;    
+}.Home-tabs a{
+  width:35px;
+}
+
+.Homepage {
+    padding: 55px 10px;
+    font-size: 10px;
+    text-decoration: none;
+    display: inline-block;
+    white-space: normal; 
+    max-width: 10px;        
+   
+}
+.tabsF {
+    position:absolute;      
+    top:60px;
+    right: 0;
+    justify-content: center;
+    gap: 10px;
+    padding: 110px 0px;
+  
+}.contact-tabs {
+    position: relative;      
+    top: -80px;
+    right: -70px;
+    gap: 75px;
+  
+}.contact-tabs a{
+  width: 0px;
+}
+.pillars{
+    padding:150px 0px;
+    margin-left:-200px;
+    margin-top:-500px;
+
+}.learn-tabs{
+    position: static;      
+    top: 0;
+    right: 0;
+    justify-content: center;
+    padding: 110px 0px;
+
+}.learn {
+    padding: 20px;
+    height: auto;
+    background-size: cover;
+  }
+
+  .overview {
+    padding: 15px;
+    max-width: 100%;
+    font-size: 16px;
+  }
+.imgone,
+.imgtwo,
+.imgthree,
+.imgfour,
+.imgfive
+{
+    width: 200px;
+    height: 190px;
+}.aboutBSI{
+  display: flex;
+  gap: 20px;
+  padding:20px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center; 
+ 
+
+  
+}.aboutBSI p{
+    margin-left:-10px;
+    margin-top:-10px;
+
+}.usAbout{
+    padding:150px 0px;
+    text-align: center;
+    margin-left:-10px;
+}
+.contact-logo{
+    width: 300px;
+}.finexBacks {
+  position: relative;
+  width: 100%;
+  min-height: 100px;
+  background: url('images/finBack.avif') center/cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding:100px 0px;
+  margin-top:-30px;
+  text-align: center;
+  color: #fff;        
+  overflow: hidden;
+}.service h2{
+  color: black;
+    font-size:20px;
+}.logo {
+ height: auto !important;
+    max-width: 30vw !important;
+    margin: 0 auto !important;
+    position: relative !important;
+    top: -20px !important;
+    left: -80px !important;
+}.Logo3{
+   height: auto !important;
+    max-width: 30vw !important;
+    margin: 0 auto !important;
+    position: relative !important;
+    top: -10px !important;
+    left: -100px !important;
+  
+}.LogoC {
+    height: auto !important;
+    max-width: 50vw !important;
+    margin: 0 auto !important;
+    position: relative !important;
+    top: -50px !important;
+    left:-100px !important;
+   
+  }.contact-logo{
+    height: auto !important;
+    max-width: 30vw !important;
+    margin: 0 auto !important;
+    position: relative !important;
+    top: -10px !important;
+    left: -110px !important;
+}
+.video-container{
+  margin-left:-30px;
+}.missions-P{
+  margin-left:20px;
+}.internships{
+  margin-left:100px;
+  margin-top:80px;
+}.internships h2{
+  margin-left:-30px;
+  margin-top:-50px;
+  
+}.intern{
+  margin-left:-100px;
+  width:530px;
+}.internships p{
+  margin-top:-100px;
+  margin-left:-100px;
+  padding: 100px 15px;
+  text-align: center;
+ 
+}.collegeAccre{
+  margin-left:60px;
+}.consider {
+  width: 350px;
+  text-align: center;
+  padding:20px;
+  margin-top:-90px;
+  margin-left:-30px;
+}.consider p{
+  padding:10px 29px;
+}.backgound-finAcc{
+  padding:50px 60px;
+  margin-left:-50px;
+ 
+}.backgound-finAcc h1{
+  padding:20px;
+  margin-left:-20px;
+}
+.about-course ul{
+  list-style-type: disc;
+  margin-left:20px;
+}.fees{
+  margin-left:-20px;
+
+}.about-course1{
+  margin-left:-5px;
+  padding:50px;
+}.about-course2 {
+  margin-right:-400px;
+
+}.paragraphsHome p{
+font-size: 16px;
+    margin-top: -25px;
+    font-size: 20px;
+    margin-left: -30px;
+    padding:20px 20px;
+
+}.stats-box {
+    flex-direction: column;
+    gap: -500px;
+}.stats h2{
+  margin-left:50px;
+}
+.stat-item {
+    font-size: 16px;
+  }.accred-desc{
+    margin-left:-30px;
+  }.get-in h2{
+    margin-left:30px;
+  } .get-in {
+        flex-direction: column;
+        gap: 5px;
+        margin: 60px 0 30px 0;
+
+    }.about-bsi{
+  margin-top:100px;
+}.about-bsi p{
+  margin-left:10px;
+
+}.wealth{
+  margin-left:-30px;
+}.about-bsi {
+      padding: 20px;          
+      margin-top: 50px;       
+      background-size: cover; 
+      background-position: top; 
+      text-align: center;     
+      font-size: 14px; 
+      background-repeat: no-repeat;         
+  }.accAndTraining {
+    height: auto !important;
+    max-width: 35vw !important;
+    margin: 0 auto !important;
+    position: relative !important;
+    top: -60px !important;
+    left: -95px !important;
+  }.team{
+    margin-left:-10px;
+  }.teams{
+    margin-left:10px;
+  }.accreditation-title{
+    margin-top:30px;
+  }.accred-desc{
+    margin-left:20px;
+    margin-top:10px;
+   
+  }.card{
+    margin-left:30px;
+  }.card p{
+    margin-left:30px;
+  }.learnPage{
+  position: relative;
+    top: 30px;
+    display:flex;
+    margin-left:10px;
+    flex-direction:column;
+     flex: 1;
+}.Coll{
+  position:relative;
+    top: 30px;
+    display:flex;
+    margin-left:10px;
+    flex-direction:column;
+    align-items:flex-start;
+     flex: 1;
+}.pillarsOFBSI p{
+  position:relative;
+  padding: 10px 10px;
+  margin-left:-10px;
+   margin-top:-500px
+}.Progr p{
+  position: relative;
+  padding:10px 10px;
+  margin-top:200px;
+}.Acc{
+  position:relative;
+    top: 30px;
+    display:flex;
+    margin-left:10px;
+    flex-direction:column;
+    align-items:flex-start;
+     flex: 1;
+
+}.study-methods{
+  margin-left:-30px;
+}
+.get-inColl {
+        flex-direction: column;
+        gap: 5px;
+        margin: 60px 0 30px 0;
+
+    } .get-inContact{
+        flex-direction: column;
+        gap: 5px;
+        margin: 60px 0 30px 0;
+
+    } .get-inAcc {
+        flex-direction: column;
+        gap: 5px;
+        margin: 60px 0 30px 0;
+
+    }.backgound-English h2{
+      margin-left:-25px;
+    }.about-course{
+      margin-left:20px;
+    }.course-content {
+  display: none;
+  margin-top: 10px;
+  padding: 20px 30px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: yellow;
+  animation: fadeIn 0.3s ease-in-out;
+  margin-left:-45px;
+}.Progs{
+    flex-wrap: wrap !important;
+    margin-left: 0 !important;
+    margin-top: -200px !important;
+    justify-content: center !important;
+    gap: 15px !important;   
+}.Progs h2{
+  margin-left:-31px;
+}.Progs p{
+  padding:0px 55px;
+}.why-items{
+    flex-wrap: wrap;
+    margin-top: 20px !important;
+    justify-content: center !important;
+    gap: 5px !important; 
+    margin-left:-50px;
+}.items-row{
+  padding:10px 25px;
+  margin-left:15px;
+  gap:1px
+}.AccP{
+  margin-left:-80px;
+  text-align:left;
+}.whySA p{
+  padding:10px 55px;
+  margin-right:-50px;
+}.collegeAccre{
+  margin-left:100px;
+}
+.test{
+margin-left:-390px;
+ 
+}.video-container-Testimony{
+  margin-left:-290px;
+  width:50px;
+} .cta-sectionColl{
+  margin-left: -10px;
+}.dropdown{
+  margin-top:-754px;
+}.collBackPic1{
+  margin-top:-150px;
+}.accTraining{
+  padding:10px 10px;
+ 
+}.Consultations{
+  margin-left:-200px;
+}.internships p{
+ 
+  text-align:left;
+  padding:0px 300px;
+  margin-left:-400px;
+  margin-top:50px;
+ 
+}.internships{
+  margin-top:150px;
+}
+.internships h2{
+  margin-top:-150px;
+   font-size:20px;
+}
+.accTraining{
+  text-align:left;
+  padding:0px 300px;
+  margin-left:-290px;
+  margin-top:10px;
+}.accreditations h2{
+  margin-top:30px;
+  margin-left:-200px;
+  font-size:20px;
+}.collapsible-list li {
+   
+    padding: 5px 180px;  
+    margin-left: -250px;
+
+
+} .cta-buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: stretch; 
+    }
+
+    .cta-btn {
+        width: 100%; 
+        text-align: left; 
+        padding: 12px 15px;
+        margin-left:-15px;
+       
+    }
+
+    .cta-box {
+        max-width: 10px;
+        width: 10%;
+        padding: 15px;
+    }
+
+    .cta-box h2 {
+        
+        text-align: left; 
+        margin-bottom: 15px;
+}.cta-sectionAcc {
+   background-color: #0c3c80;
+  text-align: center;
+  border-radius: 15px;
+  color: #fff;
+  margin: 100px auto;
+  max-width: 500px; 
+  width: 30%;        
+  font-family: Arial, sans-serif;
+  margin-top:-10px;
+  margin-left:40px;
+}.AccValues{
+  flex-direction: column;
+  margin-left:20px;
+ 
+}.value1 p{
+  padding:0px 310px;
+  margin-left:-300px;
+}.blue-lines {
+  display: block;
+  width: 60%;
+  height: 4px;
+  border: none;
+  background-color: #0056D2;
+  margin: 40px auto; 
+  clear: both; 
+  margin-left:-10px;
+}.valueHeading{
+  margin-left:-200px;
+}.tabs a {
+    font-size: 10px;
+    padding: 8px 1px;
+    margin-top:10px;
+   
+   
+  }
+   
+}
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+    padding: 5px;
+  }.addresses,.address2, .address3, .phone1, .phoneapp, .jozi, .durban {
+    padding-left: 0 !important;
+    margin: 10px auto !important;
+    font-style: italic !important;
+    text-align: center !important;
+  }.image-links {
+    flex-wrap: wrap !important;
+    margin-left: 0 !important;
+    margin-top: 20px !important;
+    justify-content: center !important;
+    gap: 15px !important;
+  }
+ 
+  .image-container {
+    flex: 1 1 100% !important;
+    max-width: 300px !important;
+    margin: 0 auto !important;
+    padding: 10px !important;
+  }
+
+
+  .link-image {
+    width: 100% !important;
+    height: auto !important;
+    max-width: 300px !important;
+    margin: 0 auto !important;
+    display: block !important;
+  }
+
+  .finexBack {
+    margin-top: 0;
+    padding: 20px 10px;
+    min-height: 220px;
+  }.tabsC {
+    display: flex;          
+    gap: 35px;
+    position: relative;
+    top: -200px;
+    right: -55px;
+    flex-wrap: wrap;
+   
+   
+    
+  }.tabsC a{
+    width:50px;
+  }.tabsC a{
+    width:50px;
+  }.tabsColl {
+    display: flex;          
+    position: relative;
+    top: -225px;
+    right: -215px;
+    flex-wrap: wrap;
+   
+   
+    
+  }.tabsColl a{
+    width:50px;
+  }.tabsColl a{
+    width:50px;
+  }
+
+  .about-tab{
+  position: absolute;
+  text-decoration: none;
+  font-size:14px;
+  color: #0c3c80;
+  margin-left:200px;
+  margin-top:-50px;
+
+
+   }.tabs{
+    display: flex;          
+    gap: 50px;
+    position: relative;
+    top: -200px;
+    right: -105px;
+    flex-wrap: wrap; 
+   
+      
+  }.tabs a {
+    width: 45px;          
+}
+    .Home-tabs {
+     display: flex;          
+    gap: 35px;
+    position: relative;
+    top: -140px;
+    right: -50px;
+    flex-wrap: wrap;    
+}.Home-tabs a{
+  width:35px;
+}
+
+.Homepage {
+    padding: 55px 10px;
+    font-size: 10px;
+    text-decoration: none;
+    display: inline-block;
+    white-space: normal; 
+    max-width: 10px;        
+   
+}
+.tabsF {
+    position:absolute;      
+    top:60px;
+    right: 0;
+    justify-content: center;
+    gap: 10px;
+    padding: 110px 0px;
+  
+}.contact-tabs {
+    position: relative;     
+    top: -80px;
+    right: -58px;
+    gap: 80px;
+  
+}.contact-tabs a{
+  width: 0px;
+}
+.pillars{
+    padding:150px 0px;
+    margin-left:-200px;
+    margin-top:-500px;
+
+}.learn-tabs{
+    position: static;      
+    top: 0;
+    right: 0;
+    justify-content: center;
+    padding: 110px 0px;
+
+}.learn {
+    padding: 20px;
+    height: auto;
+    background-size: cover;
+  }
+
+  .overview {
+    padding: 15px;
+    max-width: 100%;
+    font-size: 16px;
+  }
+.imgone,
+.imgtwo,
+.imgthree,
+.imgfour,
+.imgfive
+{
+    width: 200px;
+    height: 190px;
+}.aboutBSI{
+  display: flex;
+  gap: 20px;
+  padding:20px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center; 
+ 
+
+  
+}.aboutBSI p{
+    margin-left:-10px;
+    margin-top:-10px;
+
+}.usAbout{
+    padding:150px 0px;
+    text-align: center;
+    margin-left:-10px;
+
+}.contact-logo{
+    width: 300px;
+}.finexBacks {
+  position: relative;
+  width: 100%;
+  min-height: 100px;
+  background: url('images/finBack.avif') center/cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding:100px 0px;
+  margin-top:-30px;
+  text-align: center;
+  color: #fff;              
+  overflow: hidden;
+}.service h2{
+  color: black;
+    font-size:20px;
+}.logo {
+ height: auto !important;
+    max-width: 30vw !important;
+    margin: 0 auto !important;
+    position: relative !important;
+    top: -20px !important;
+    left: -80px !important;
+}.Logo3{
+   height: auto !important;
+    max-width: 30vw !important;
+    margin: 0 auto !important;
+    position: relative !important;
+    top: -10px !important;
+    left: -100px !important;
+    
+  
+}.LogoC {
+    height: auto !important;
+    max-width: 50vw !important;
+    margin: 0 auto !important;
+    position: relative !important;
+    top: -50px !important;
+    left:-100px !important;
+   
+  }.contact-logo{
+    height: auto !important;
+    max-width: 30vw !important;
+    margin: 0 auto !important;
+    position: relative !important;
+    top: -10px !important;
+    left: -130px !important;
+}
+.video-container{
+  margin-left:50px;
+}.missions-P{
+  margin-left:20px;
+}.internships{
+  margin-left:100px;
+  margin-top:80px;
+}.internships h2{
+  margin-left:-30px;
+  margin-top:-50px;
+  
+}.intern{
+  margin-left:-100px;
+  width:530px;
+}.internships p{
+  margin-top:-100px;
+  margin-left:-100px;
+  padding: 100px 15px;
+  text-align: center;
+ 
+}
+.consider {
+  width: 350px;
+  text-align: center;
+  padding:20px;
+  margin-top:-90px;
+  margin-left:-30px;
+}.consider p{
+  padding:10px 29px;
+  text-align: left;
+  
+
+}.backgound-finAcc{
+  padding:50px 60px;
+  margin-left:-50px;
+ 
+}.backgound-finAcc h1{
+  padding:20px;
+  margin-left:-20px;
+}
+.about-course ul{
+  list-style-type: disc;
+  margin-left:20px;
+}.fees{
+  margin-left:-20px;
+
+}.about-course1{
+  margin-left:-5px;
+  padding:50px;
+}.about-course2 {
+  margin-right:-400px;
+
+}.paragraphsHome p{
+font-size: 16px;
+    margin-top: -25px;
+    font-size: 20px;
+    margin-left: -30px;
+    padding:20px 20px;
+
+}.stats-box {
+    flex-direction: column;
+    gap: -500px;
+}.stats h2{
+  margin-left:50px;
+}
+.stat-item {
+    font-size: 16px;
+  }.get-in h2{
+    margin-left:30px;
+  } .get-in {
+        flex-direction: column;
+        gap: 5px;
+        margin: 60px 0 30px 0;
+
+    }.about-bsi{
+  margin-top:100px;
+}.about-bsi p{
+  margin-left:10px;
+
+}.wealth{
+  margin-left:-30px;
+}.about-bsi {
+      padding: 20px;        
+      margin-top: 50px;      
+      background-size: cover; 
+      background-position: top;
+      text-align: center;      
+      font-size: 14px; 
+      background-repeat: no-repeat;        
+  }.accAndTraining {
+    height: auto !important;
+    max-width: 35vw !important;
+    margin: 0 auto !important;
+    position: relative !important;
+    top: -60px !important;
+    left: -95px !important;
+  }
+  .team{
+    margin-left:-10px;
+  }.teams{
+    margin-left:10px;
+  }.accreditation-title{
+    margin-top:30px;
+  }.accred-desc{
+    margin-left:20px;
+    margin-top:10px;
+   
+  }.card{
+    margin-left:30px;
+  }.card p{
+    margin-left:30px;
+  }.learnPage{
+  position: relative;
+    top: 30px;
+    display:flex;
+    margin-left:10px;
+    flex-direction:column;
+     flex: 1;
+}.Coll{
+  position:relative;
+    top: 30px;
+    display:flex;
+    margin-left:10px;
+    flex-direction:column;
+     flex: 1;
+     align-items: flex-start;
+}.pillarsOFBSI p{
+  position:relative;
+  padding: 10px 10px;
+  margin-left:-10px;
+   margin-top:-500px
+}.Progr p{
+  position: relative;
+  padding:10px 10px;
+  margin-top:200px;
+}.Acc{
+  position:relative;
+    top: 30px;
+    display:flex;
+    margin-left:10px;
+    flex-direction:column;
+     flex: 1;
+     align-items:flex-start;
+
+}.study-methods{
+  margin-left:-30px;
+}.get-inColl {
+        flex-direction: column;
+        gap: 5px;
+        margin: 60px 0 30px 0;
+
+    } .get-inContact{
+        flex-direction: column;
+        gap: 5px;
+        margin: 60px 0 30px 0;
+
+    } .get-inAcc {
+        flex-direction: column;
+        gap: 5px;
+        margin: 60px 0 30px 0;
+
+    }.backgound-English h2{
+      margin-left:-25px;
+    }.about-course{
+      margin-left:20px;
+    }.course-content {
+  display: none;
+  margin-top: 10px;
+  padding: 20px 30px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: yellow;
+  animation: fadeIn 0.3s ease-in-out;
+  margin-left:-45px;
+}.Progs{
+    flex-wrap: wrap !important;
+    margin-left: 0 !important;
+    margin-top: -200px !important;
+    justify-content: center !important;
+    gap: 15px !important;   
+}.Progs h2{
+  margin-left:-31px;
+}.Progs p{
+  padding:0px 55px;
+}.why-items{
+    flex-wrap: wrap;
+    margin-top: 20px !important;
+    justify-content: center !important;
+    gap: 5px !important; 
+    margin-left:-50px;
+}.whySA p{
+  padding:0px 2px;
+  margin-right:30px;
+}.items-row{
+  padding:10px 25px;
+  margin-left:15px;
+  gap:1px
+}.AccP{
+  margin-left:-80px;
+  text-align:left;
+}
+.collegeAccre{
+  margin-left:100px;
+}
+.test{
+  margin-left:-390px;
+ 
+}.video-container-Testimony{
+  margin-left:-290px;
+  width:50px;
+} .cta-sectionColl{
+  margin-left: -10px;
+}.dropdown{
+  margin-top:-754px;
+}.collBackPic1{
+  margin-top:-150px;
+}.accTraining{
+  padding:10px 10px;
+ 
+}.Consultations{
+  margin-left:-200px;
+}.internships p{
+ 
+  text-align:left;
+  padding:0px 300px;
+  margin-left:-400px;
+  margin-top:50px;
+ 
+}.internships{
+  margin-top:150px;
+}
+.internships h2{
+  margin-top:-150px;
+  font-size:20px;
+}
+.accTraining{
+  text-align:left;
+  padding:0px 300px;
+  margin-left:-290px;
+  margin-top:10px;
+}.accreditations h2{
+  margin-top:30px;
+  margin-left:-200px;
+  font-size:20px;
+}.collapsible-list li {
+   
+    padding: 5px 240px;  
+    margin-left: -290px;
+
+
+} .cta-buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: stretch; 
+    }
+
+    .cta-btn {
+        width: 100%; 
+        text-align: left; 
+        padding: 12px 15px;
+        margin-left:-15px;
+       
+    }
+
+    .cta-box {
+        max-width: 10px;
+        width: 10%;
+        padding: 15px;
+    }
+
+    .cta-box h2 {
+        
+        text-align: left; 
+        margin-bottom: 15px;
+}.cta-sectionAcc {
+   background-color: #0c3c80;
+  text-align: center;
+  border-radius: 15px;
+  color: #fff;
+  margin: 100px auto;
+  max-width: 500px; 
+  width: 30%;        
+  font-family: Arial, sans-serif;
+  margin-top:-10px;
+  margin-left:40px;
+}.AccValues{
+  flex-direction: column;
+  margin-left:20px;
+ 
+}.value1 p{
+  padding:0px 310px;
+  margin-left:-300px;
+}.blue-lines {
+  display: block;
+  width: 60%;
+  height: 4px;
+  border: none;
+  background-color: #0056D2;
+  margin: 40px auto; 
+  clear: both; 
+  margin-left:-10px;
+}
+  .tabs a {
+    font-size: 10px;
+    padding: 8px 1px;
+    margin-top:10px;
+  }.Acc .valueHeading{
+  margin-left:-200px;
+  font-size:20px;
+}}
+      </style>
+    </head>
+    <body>
+            <header>
+            <div class="Acc">
+                     <!---<img src="images/BSIAccounting.png"  class="accAndTraining">-->
+                     <img src="images/accLogo.webp"  class="accAndTraining">
+                     <div class="tabs">
+                 <a href="index.html" class="Homepage">BSI Home</a>
+                  <a href="college.htm" class="Homepage">BSI College</a>
+                   <a href="contact.htm" class="Homepage">Visit Us</a>
+
+            </div>
+ <hr class="blue-linesAcc">
+           <div class="AboutAandT">
+          <p class="accTraining">BSI Accounting & Training Solutions has successfully provided cost effective and cost saving solutions to hundreds of different organisations. From start-ups to corporates,
+             our team has customized solutions to meet every need.</p>
+
+         <P class="accTraining">Our Vision is to be the leading financial services assurance and tax solutions provider, offering excellence
+             assistance and business solutions that<br> give our clients 
+             the best competitive edge all the while meeting their budget.</P>
+             <div class="Ourservices">
+                            <div class="service">
+                            <h2 class="Consultations">COMPANY SECRETARY SOLUTIONS</h2>
+                            <img src="images/secretarysolutions.jpg" >
+                            <ul class="collapsible-list">
+                              <li>Company Registrations</li>
+                              <li>Amendments to founding</li>
+                              <li>Drafting of contracts and agreements</li>
+                              <li class="list">Amendments to company documents and founding statements </li>
+                              <li class="list">Submissions of annual returns</li>
+                            </ul>
+                            <a class="toggle">Read More</a>
+
+                            </div>
+                            <div class="service">
+                            <h2 class="Consultations">FINANCIAL SERVICES SOLUTIONS</h2>
+                            <img src="images/FinancialServices.jpg">
+                            <ul class="collapsible-list">
+                              <li>Financial management solutions</li>
+                              <li>Tools for financial reporting</li>
+                              <li>Professional bookkeeping services</li>
+                              <li class="list">Full accounting function management</li>
+                              <li class="list">Reconciliation services</li>
+                              <li class="list">Preparation of financial statements and financial reports</li>
+                              <li class="list">Independent reviews</li>
+                              <li class="list">Audit services</li>
+                              <li class="list">Support from a team of bookkeepers, accountants, accounting specialists, and auditors</li>
+                            </ul>
+                              <a class="toggle">Read More</a>
+                            </div>
+                            <div class="service">
+                            <h2 class="Consultations">TAX AND COMPLIANCE</h2>
+                            <img src="images/taxcompliance.png" >
+                            <p><strong>Tax Services</strong></p>
+                            <ul class="collapsible-list">
+                                <li>Business Income Tax Registrations & Return Submissions</li>
+                                <li>Corporate Income Tax Registrations & Return Submissions</li>
+                                <li class="list">Individual Income Tax Registrations & Return Submissions</li>
+                                <li class="list">Employees Tax (PAYE) Registrations & Return Submissions</li>
+                                <li class="list">Value Added Tax (VAT) Registrations & Returns</li>
+                                <li class="list">E-Filing Registration</li>
+                                <li class="list">Customs & Excise Registrations</li>
+                                <li class="list">Capital Gains Tax Calculations & Submissions</li>
+                                <li class="list">Import & Export Licenses</li>
+                                <li class="list">Tax Clearances</li>
+                                <li class="list">Tax Dispute Representation (all tax disputes)</li>
+                                <li class="list">Assistance with Unemployment Insurance Fund (UIF)</li>
+                           
+                            
+                                <p class="section-title"><strong>Payroll Services</strong></p>
+                                <ul>
+                                  <li class="list">Payroll processing</li>
+                                  <li class="list">Payslips</li>
+                                  <li class="list">Salary schedules</li>
+                                  <li class="list">Employee contracts</li>
+                                </ul>
+        
+                                 <p class="section-title"><strong>Compliance Services</strong></p>
+                                <li class="list">UIF Employer Registration</li>
+                                <li class="list">UIF Employee Registration</li>
+                                <li class="list">COID (Compensation for Occupational Injuries & Diseases) Registration</li>
+                                <li class="list">Drafting and submitting PAIA Manuals (Section 51 of PAIA Act 2 of 2000)</li>
+                                <li class="list">Assistance with simple and complex PAIA compliance</li>
+                            </ul>
+                            <a class="toggle">Read More</a>
+                            
+                            </div>
+                            <div class="service">
+                            <h2 class="Consultations">MONTHLY CONTRACTS</h2>
+                            <img src="images/contracts.jpg" >
+                            <p><strong>Monthly & Bi-Monthly Solutions</strong></p>
+                             <ul class="collapsible-list">
+                                <li>Invoicing , Statements,<br> Debtors and Creditors Management</li>
+                                <li>Employees Monthly Tax Submissions</li>
+                                <li>Monthly Management Accounts</li>
+                                <li class="list">Bi Monthly VAT Returns</li>
+                                <li class="list">Employee Payrolls and Payslips</li>
+                            <p class="list"><strong>Annual & Bi-Annual Solutions</strong></p>
+                            
+                              <li class="list">Annual Financial Statements</li>
+                              <li class="list">Employees Bi Annual Tax Submissions</li>
+                              <li class="list">Income Tax Return Submissions</li>
+                              <li class="list">Bi Annual Provisional Tax Submissions</li>
+                              <li class="list">Accountants Letters</li>
+                            </ul>
+                            <a class="toggle">Read More</a>
+                            </div>
+                            
+                         </div>
+                         <hr class="blue-lines">
+                                <h2 class="valueHeading">Our Values</h2>
+                              <div class="AccValues">
+                              
+<div class="value1">
+      <p class="value2">Innovation</P>
+      <img src="images/innovation.png">
+      <p>We always evolving as the needs or our customers change and new opportunities arise in the market. 
+        You can rest assured that, working with our team you will
+         enjoy the latest services, technology and developments in the industry.</p>
+    </div>
+    <div class="value1">
+      <p class="value2">Teamwork</p>
+      <img src="images/teamWork.jpg">
+      <p>We make it our responsibility to know you and your business. We work closely with you to ensure that the solutions we provide are tailored
+         to meet your unique needs and challenges. We are committed to your success.</p>
+    </div>
+    <div class="value1">
+      <p class="value2">Service Excellence</p>
+      <img src="images/serviceExcel.webp">
+      <p>At BSI Accounting & Training Solutions, our highest priorities are the accuracy of work and 
+        ultimately the satisfaction of our customers. You are important to us and you can expect us to go
+         the extra mile for your business.
+         Superior customer service is the hallmark of BSI Accounting & Training Solutions.</p>
+    </div>
+    
+
+          </div>
+          <hr class="blue-lines">
+                         <div class="internships">
+                          <h2>Internships</h2>
+                          <img src="images/interns.jpg" class="intern">
+                          <p>At BSI, we value investing in people.We have realized that to be where we are, 
+                            it is because of others who were here before us.With this concept in mind, every year,
+                             we carefully handpick interns to train our team and we can happily say that most of them have gone into the mainstream of the economy and most are still part of the BSI Community.
+                             BSI, making a difference in peoples lives.</p>
+                         </div>
+                         <br>
+                        <hr class="blue-lines">
+                            
+
+<div class="accreditations">
+        <p class="accred-desc">
+          <h2>Accreditations</h2>
+       <!--Quality assurance is a huge priority at BSI and as such, we ensure all our professionals are members of or belong to at least one or more of the following bodies.--->
+    </p>
+    <div class="logo-slider">
+  <div class="logo-track" id="logoTrack">
+    <img src="images/saiba.png"  class="accred-logo">
+     <img src="images/sait.jpeg"  class="accred-logo">
+      <img src="images/accountingTech.png"  class="accred-logo">
+       <img src="images/saica.png"  class="accred-logo">
+    
+
+</div>
+</div>
+</div>
+
+                    <section class="cta-sectionAcc">
+    <h2>Ready to Take the Next Step?</h2>
+    <div class="cta-buttons">
+        
+        <a href="https://wa.me/27672736847" target="_blank" class="cta-btn whatsapp-btn">Chat to us on WhatsApp</a>
+        <button id="openForm" class="cta-btn">Book A Consultation</button>
+    </div>
+</section>
+
+
+
+                   <div id="consultationForm" class="modal">
+  <div class="modal-content">
+    <span id="closeForm" class="close">&times;</span>
+    <h3>Book Consultation</h3>
+   <form action="https://getform.io/f/bjjowjnb" method="post">
+  <input type="text" name="fullname" placeholder="Full Name" required><br>
+  <input type="email" name="email" placeholder="Email" required><br>
+  <textarea name="message" placeholder="What would you like to consult about?"rows="5"  required></textarea><br>
+  <button type="submit">Submit</button>
+</form>
+
+
+  </div>
+</div>
+                         </div>
+                         
+
+
+                <!---<div class="logo2">
+    <img src="images/logo.png" class="logos2Acc">
+ 
+</div>--->
+
+<div class="color">
+<div class="get-inAcc"> 
+    <span class="left-touch">■──────────</span>
+    <h2>GET IN<br>TOUCH</h2>
+    <span class="right-touch">──────────■</span>
+</div>
+<div class="addresses">
+    <h2 class="address1">Cape Town</h2>
+    <img src="https://bsisa.co.za/bsicoll25/wp-content/uploads/2025/11/location.png" class="locations">
+    <h3 class="address2">5th floor, <br>33 Church Street,</h3>
+    <h3 class="address3">Cape Town CBD, 8001</h3>
+    <img src="https://bsisa.co.za/bsicoll25/wp-content/uploads/2025/11/tp.png" class="phone">
+    <h3 class="phone1">+27 21 285 0213</h3>
+      
+</div>
+<div class="jozi">
+    <h2 class="address1">Johannesburg</h2>
+     <img src="https://bsisa.co.za/bsicoll25/wp-content/uploads/2025/11/location.png" class="locations">
+    <h3 class="address2">28 Saddle Drive,<br>Woodmead Office Park</h3>
+    <h3 class="address3">Sandton, Johannesburg, 2191</h3>
+    <img src="https://bsisa.co.za/bsicoll25/wp-content/uploads/2025/11/tp.png" class="phone">
+    <h3 class="phone1">+27 10 065 0687</h3>
+</div>
+<div class="durban">
+    <h2 class="address1">Durban</h2>
+     <img src="https://bsisa.co.za/bsicoll25/wp-content/uploads/2025/11/location.png" class="locations">
+    <h3 class="address2">11th floor, 1108 Metlife, 391<br>Smith Street</h3>
+    <h3 class="address3"> Durban Central, 4001</h3>
+    <img src="https://bsisa.co.za/bsicoll25/wp-content/uploads/2025/11/tp.png" class="phone">
+    <h3 class="phone1">+27 31 100 0730</h3>
+</div>
+
+    
+<div class="container1">
+<div class="hours">
+    <h2 class="office">OFFICE HOURS</h2>
+    <h3 class="office1">Monday-Thursday:08h00-17h00
+    <br>Friday:08h00-15h30</h3>
+    <h2 class="appointments">WEEKENDS BY APPOINTMENT OR<br> PRE -ARRANGEMENTS</h2>  
+
+</div>
+<div class="information">
+      <img src="https://bsisa.co.za/bsicoll25/wp-content/uploads/2025/11/email.webp" class="mails">
+    <h2 class="information1">info@bsisa.co.za</h2>
+    <img src="https://bsisa.co.za/bsicoll25/wp-content/uploads/2025/11/wa.png" class="whatsapp">
+    <h3 class="phoneapp">+27 67 273 6847</h3>
+    <h2 class="media">SOCIAL MEDIA</h2>
+    <a href="https://www.facebook.com/Bsiaccountingandtrainingsolution/ ">
+    <img src="https://bsisa.co.za/bsicoll25/wp-content/uploads/2025/11/fb.png" class="social">
+  </a>
+  <a href="https://twitter.com/bsi_southafrica" >
+    <img src="https://bsisa.co.za/bsicoll25/wp-content/uploads/2025/11/twi.png" class="social">
+  </a>
+   <a href="https://www.instagram.com/p/C-ZlsNLgSWu/"  >
+    <img src="https://bsisa.co.za/bsicoll25/wp-content/uploads/2025/11/ins.png" class="social">
+  </a>
+  
+  
+
+ 
+</div>
+</div>
+
+</div>
+        </div>
+            </div>
+            
+           
+</header>
+<script>
+  const modal = document.getElementById('consultationForm');
+  const openBtn = document.getElementById('openForm');
+  const closeBtn = document.getElementById('closeForm');
+
+  openBtn.onclick = () => {
+    modal.style.display = 'block';
+  };
+
+  closeBtn.onclick = () => {
+    modal.style.display = 'none';
+  };
+
+  window.onclick = (e) => {
+    if (e.target === modal) {
+      modal.style.display = 'none';
+    }
+  };
+</script>
+<script>
+  // Handle user form submission
+  const userForm = document.getElementById('userForm');
+  const viewProfileBtn = document.getElementById('viewProfileBtn');
+  const profileSection = document.getElementById('ProfileSection');
+
+  let userName = '';
+  let userEmail = '';
+
+  userForm.addEventListener('submit', function (e) {
+    e.preventDefault();
+
+    userName = document.getElementById('name').value;
+    userEmail = document.getElementById('email').value;
+
+    // Store values but don't show profile yet
+    document.getElementById('ProfileName').textContent = userName;
+    document.getElementById('ProfileEmail').textContent = userEmail;
+
+    alert("Profile saved! Click 'View Profile' to see it.");
+  });
+
+  // Show profile section when button is clicked
+  viewProfileBtn.addEventListener('click', function () {
+    profileSection.style.display = 'block';
+  });
+
+  // Handle document upload (keep your upload code)
+  const documentList = document.getElementById('documentList');
+  const uploadForm = document.getElementById('uploadForm');
+  const fileInput = document.getElementById('fileInput');
+
+  uploadForm.addEventListener('submit', function (e) {
+    e.preventDefault();
+    const file = fileInput.files[0];
+    if (!file) return;
+
+    const li = document.createElement('li');
+    li.textContent = file.name + " (just uploaded)";
+    documentList.appendChild(li);
+
+    fileInput.value = "";
+  });
+</script>
+<script>
+const track = document.getElementById('logoTrack');
+
+// Clone all logos once for seamless loop
+track.innerHTML += track.innerHTML;
+
+function startLoop() {
+  const trackWidth = track.scrollWidth / 2; // width of one set
+  let start = null;
+
+  function step(timestamp) {
+    if (!start) start = timestamp;
+    const elapsed = timestamp - start;
+
+    const speed = 100; // pixels per second
+    const distance = (elapsed / 1000) * speed;
+
+    track.style.transform = `translateX(-${distance % trackWidth}px)`;
+
+    requestAnimationFrame(step); // keep looping
+  }
+
+  requestAnimationFrame(step);
+}
+
+window.addEventListener('load', startLoop);
+window.addEventListener('resize', () => {
+  track.style.transform = 'translateX(0)';
+  startLoop();
+});
+</script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll(".toggle").forEach(function (button) {
+        button.addEventListener("click", function () {
+
+          
+            const ul = button.closest(".service").querySelector("ul.collapsible-list");
+
+            if (!ul) return; 
+
+            const hiddenItems = ul.querySelectorAll(".list");
+
+          
+            hiddenItems.forEach(item => {
+                item.style.display =
+                    item.style.display === "list-item" ? "none" : "list-item";
+            });
+
+            // Change button text properly
+            button.textContent =
+                button.textContent === "Read More" ? "Read Less" : "Read More";
+        });
+    });
+});
+</script>
+
+
+
+
+
+    </body>
+</html>
